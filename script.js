@@ -3,7 +3,7 @@ function validation(event) {
     var username=document.getElementById("username").value;
     var password=document.getElementById("password").value;
     if (username=='user'&&password=='password') {
-        window.location.replace("./index.html");
+        window.location.replace("/index.html");
     }else{
         alert("Login failed ...")
     }
