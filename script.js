@@ -9,7 +9,7 @@ function validation(event) {
     }
 }
 
-    if (window.location.pathname == 'Microsoft-clone/index.html') {
+     if (window.location.href == 'https://shyam45.github.io/Microsoft-clone/index.html') {
         var a=document.getElementById("user");
         a.innerHTML= 'user'
     }
