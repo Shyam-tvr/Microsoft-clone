@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+}
+.container{
+    max-width: 1240px;
+}
+.navbar{
+    max-width: 1210px;
+    margin: auto;
+}
+.user:focus{
+    border: none;
+}
+.nav-link{
+    font-size: 13px;
+}
+.nav-link:hover{
+    border-bottom: 1px solid black;
+}
+.dropdown{
+    font-size: 13px;
+}
+.dropdown:hover{
+    border-bottom: 1px solid black;
+}
+.user img{
+    height: 40px;
+    width: 40px;
+}
+.banner{
+    max-width: 1200px;
+    height: 472px;
+    margin: auto;
+}
+.carousel-caption{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.icons{
+    max-width: 750px;
+}
+.icon{
+    width: 184px;
+    height: 100px;
+}
+.list{
+    list-style: none;
+    line-height: 25px;
+}
+.footer{
+    background-color: #f2f2f2;
+
+}
+.copyright{
+    font-size: 14px;
+}
+.card{
+    border: unset;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.card-link{
+    text-decoration: none;
+    font-size: 15px;
+    color: #0067b8;
+    text-align: left;
+    font-weight: 500;
+}
+.card-link:hover {
+    padding-left: 3px;
+    text-decoration: underline rgb(92, 126, 190) 2px;
+    text-underline-offset: 2px;
+}
+.card-text{
+    color: #000;
+    }
+.card-link2{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+.card-link2:hover{
+    text-decoration: underline 2px white;
+    text-underline-offset: 3px;
+    color: white;
+}
+.right-nav{
+    display: flex;
+}
+.banner-text{
+    background-color: #e6e6e6;
+    height: 278px;
+    padding: 58px;
+}
+
+
+
+.banner2-link{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+.banner2-link:hover{
+    text-decoration: underline 2px white;
+    text-underline-offset: 3px;
+    color: white;
+}
+.card-title{
+    color: #000;
+}
+.card-img-overlay{
+  position: absolute;
+top: 104px;
+right: 0;
+bottom: 0;
+left: 104px;
+padding: 1rem;
+border-radius: calc(.25rem - 1px);
+}
+
+
+.carousel-caption{
+    top: 10%;
+    position: absolute;
+    right: 30%;
+    bottom: 1.25rem;
+    left: 7%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: unset;
+    width: 100%;
+}
+.banner-text{
+    background-color: #e6e6e6;
+    height: 278px;
+    padding: 53px;
+}
